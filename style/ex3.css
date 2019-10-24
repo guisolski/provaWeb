@@ -1,0 +1,10 @@
+img{
+    width: 15rem;
+    height: 10rem;
+}
+td{
+    cursor: pointer;
+}
+img:hover{
+    border: 0.3rem solid #5500ff
+}

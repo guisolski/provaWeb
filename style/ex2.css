@@ -1,0 +1,58 @@
+table{
+    width: 300px;
+}
+
+input{
+    border: 1px solid #0000DD;
+    padding-top : 8px;
+    padding-bottom : 8px;
+    padding-right : 20px;
+    padding-left :20px;
+}
+button{
+    padding-top : 10px;
+    padding-bottom : 10px;
+    padding-right : 10px;
+    padding-left : 10px;
+}
+#Gravar{
+    background-color: #00AA00;
+    color: white;
+    width: 100% !important;
+}
+#Gravar:hover{
+    cursor: pointer;
+    background-color: #009900;
+}
+#Limpar{
+    background-color: #FFFF00;
+    color: black;
+    width: 100% !important;
+}
+#Limpar:hover{
+    cursor: pointer;
+    background-color: #AAAA00;
+}
+
+.float{
+    width: 89.4%;
+}
+.small{
+     width: 22.2%; 
+}
+div{
+    margin-top: 15%;
+    margin-left: 35%;
+}
+@-moz-document url-prefix(){ 
+    .small{
+    width: 21.2%; 
+    }
+    .float{
+        width: 88.5%;
+    }
+    div{
+        margin-top: 15%;
+        margin-left: 40%;
+    }
+}
