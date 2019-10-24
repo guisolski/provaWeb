@@ -17,7 +17,7 @@ $(document).ready(function(){
     $("#Gravar").click(function(){
         var resultado = valida(getAllValue($('input').each(function(){ $(this)})));
         if(resultado)
-            alert("Gravado com sucesso");
+            alert("Gravado com sucesso!");
         else
             alert("Todos os campos devem ser preenchidos!");
     });
